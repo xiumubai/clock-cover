@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <i class="logo">朽木课堂</i>
+    <i class="logo">
+      <img class="avatar" src="../assets/logo.png" />
+      朽木课堂
+    </i>
     <div class="social">
       <a href="https://github.com/xiumubai/" target="_blank">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +45,16 @@ nav {
 	font-size: 35px;
 	color: transparent;
 	animation: hue 5s linear infinite;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+.avatar {
+  display: inline-block;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 0.8em;
 }
 
 @keyframes hue {

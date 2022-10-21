@@ -1,10 +1,8 @@
 <template>
   <header>
-    <h1>Beautifully simple click-to-copy CSS effects</h1>
+    <p class="title">前端课程名称</p>
     <p>
-      A carefully crafted collection designed with a focus on fluidity,
-      simplicity, and ease of use. Powered by CSS with minimal markup.
-      Completely open source and MIT licensed.
+      👋 Hi，我是朽木白，一名前端工程师，公众号「朽木学社」。
     </p>
   </header>
 </template>
@@ -16,18 +14,18 @@ header {
   align-items: center;
   text-align: center;
   padding: 0 1.5em;
-  margin: 0 auto 2em auto;
-}
-
-h1 {
-  font-size: 1.8em;
-  font-weight: 600;
-  margin-bottom: 0.5em;
+  margin: 3em auto;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 300;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
 }
 
 // Responsive styles
